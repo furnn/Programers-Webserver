@@ -94,5 +94,6 @@ def create_menu(): # request가 JSON이라고 가정
     menus[request_data["id"]]=new_menu
     return jsonify(new_menu)
 
+
 if __name__=='__main__':
     app.run()
